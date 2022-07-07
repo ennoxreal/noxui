@@ -1,0 +1,17 @@
+if game.PlaceId == 155615604 then
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("NOX UI", "Synapse")
+local Tab = Window:NewTab("Prison Life")
+local Section = Tab:NewSection("Prison Life Scripts")
+Section:NewButton("Admin Commands", "Prison Life Admin Commands", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/XTheMasterX/Scripts/Main/PrisonLife'),true))()
+end)
+elseif game.PlaceId == 445664957 then
+    local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("NOX UI", "Synapse")
+local Tab = Window:NewTab("Parkour")
+local Section = Tab:NewSection("Parkour Scripts")
+Section:NewButton("Bag ESP", "Bag ESP", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/ennoxreal/Parkour-Bag-ESP/main/bagesp'),true))()
+end)
+end
